@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+.promo {
+  padding: 39px 0px 62px 0;
+  height: 800px;
+  background: url("../img/main_bg.jpg") center center/cover no-repeat;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  margin: 14px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.yellow {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #f9bf3b;
+}
+
+h1 {
+  margin: 53px 0 20px 0;
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.ad {
+  margin-top: 22px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+#yellow_words {
+  color: #f9bf3b;
+  font-weight: 500;
+}
+
+.button {
+  justify-items: auto;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn_class,
+.prize_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 72px;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  font-size: 21px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.get_more {
+  margin-top: 70px;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+.waiting,
+.prize {
+  padding: 88px 0 75px 0;
+  min-height: 607px;
+  background-color: #efefef;
+}
+
+.waiting .waiting_header,
+.fin .fin_header {
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+.fin .fin_header {
+  color: #efefef;
+}
+
+.waiting .waiting_devider,
+.fin .fin_devider {
+  width: 220px;
+  height: 4px;
+  background: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.waiting .waiting_subheader {
+  padding-top: 18px;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+  display: block;
+  margin: 0 auto;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  display: inline-block;
+  vertical-align: top;
+  width: 342px;
+  margin: 46px 12px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_descr {
+  margin-top: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+.why {
+  min-height: 550px;
+  margin-top: 47px;
+}
+
+.why .why_header {
+  margin-top: 108px;
+  margin-left: 391px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+.why .why_descr {
+  margin-left: 391px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  align-items: center;
+  color: #4a4a4a;
+}
+
+.why .why_descr span {
+  font-style: normal;
+  font-weight: 500;
+}
+.why .why_img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+}
+
+.fin {
+  min-height: 447px;
+  padding-top: 88px;
+  background: url("../img/second_bg.jpg") center center/cover no-repeat;
+}
+.fin .fin_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+.fin .fin_item .fin_round {
+  margin-top: 18px;
+  width: 118px;
+  height: 118px;
+  border-radius: 100%;
+  background: #b4e2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.fin .fin_descr {
+  margin-top: 24px;
+  width: 230px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #efefef;
+}
+.fin .fin_item {
+  display: block;
+  margin: 0 auto;
+  align-items: auto;
+}
+
+.prize {
+  min-height: 631px;
+  background-color: #efefef;
+}
+
+.prize .prize_descr {
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+}
+.prize .img_prize {
+  display: block;
+  margin: 0 auto;
+  margin-top: 88px;
+}
